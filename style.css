@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+
+}
+
+:root {
+    --1: #fcd8ff;
+    --2: #6DCDF5;
+    --3: #47A1DE;
+    --4: #204674;
+    --5: #CEE512;
+    --6: #EFCA09;
+    --7: #eec80c;
+    --8: #dfa651;
+    --9: #ee7d13;
+   --10: #fcd8ff;
+   --11: #DDF1F4;
+}
+
+#heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #204674;
+
+}
+
+#main {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 620px;
+    top: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+        var(--1), var(--2), var(--3), var(--4), var(--5), var(--6), var(--7), var(--8), var(--9), var(--10)
+    );
+    
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-timing-function:  ease-in;
+}
+
+@keyframes anim {
+    0% {
+        background: conic-gradient(var(--11), var(--11), var(--11), var(--11), var(--11),
+        var(--11), var(--11), var(--11), var(--11), var(--11));
+    }
+    10% {
+        background: conic-gradient(var(--1), var(--11), var(--11), var(--11), var(--11),
+        var(--11), var(--11), var(--11), var(--11), var(--11));
+    }
+    20% {
+        background: conic-gradient(var(--1), var(--2), var(--11), var(--11), var(--11),
+        var(--11), var(--11), var(--11), var(--11), var(--11));
+    }
+    30% {
+        background: conic-gradient(var(--1), var(--2), var(--3), var(--11), var(--11),
+        var(--11), var(--11), var(--11), var(--11), var(--11));
+    }
+    40% {
+        background: conic-gradient(var(--1), var(--2), var(--3), var(--4), var(--11),
+        var(--11), var(--11), var(--11), var(--11), var(--11));
+    }
+    50% {
+        background: conic-gradient(var(--1), var(--2), var(--3), var(--4), var(--5),
+        var(--11), var(--11), var(--11), var(--11), var(--11));
+    }
+    60% {
+        background: conic-gradient(var(--1), var(--2), var(--3), var(--4), var(--5),
+        var(--6), var(--11), var(--11), var(--11), var(--11));
+    }
+    70% {
+        background: conic-gradient(var(--1), var(--2), var(--3), var(--4), var(--5),
+        var(--6), var(--7), var(--11), var(--11), var(--11));
+    }
+    80% {
+        background: conic-gradient(var(--1), var(--2), var(--3), var(--4), var(--5),
+        var(--6), var(--7), var(--8), var(--11), var(--11));
+    }
+    90% {
+        background: conic-gradient(var(--1), var(--2), var(--3), var(--4), var(--5),
+        var(--6), var(--7), var(--8), var(--9), var(--11));
+    }
+    100% {
+        background: conic-gradient(var(--1), var(--2), var(--3), var(--4), var(--5),
+        var(--6), var(--7), var(--8), var(--9), var(--10));
+    }
+}
+
+
+#center-circle {
+    height: 120px;
+    width: 120px;
+    background-image: url("https://assets.bizclikmedia.net/900/d86ce19567e7e7e983b45d67742a5d1a:d8456d7f7264a1991b6d94431a664fc6/gettyimages-1367728606.webp");
+    background-size: 300px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -30px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    border-radius: 50%;
+}

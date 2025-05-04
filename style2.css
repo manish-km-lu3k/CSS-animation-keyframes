@@ -1,0 +1,203 @@
+#lang {
+    position: absolute;
+    left: 55%;
+    top: -30%;
+    visibility: visible;
+    font-weight: bold;
+    animation-name: lang;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
+
+#assist {
+    position: absolute;
+    left: 95%;
+    top: 0%;
+    visibility: visible;
+    font-weight: bold;
+    animation-name: assist;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+#docu {
+    position: absolute;
+    left: 105%;
+    top: 40%;
+    visibility: visible;
+    font-weight: bold;
+    animation-name: docu;
+    animation-duration: 2s;
+    
+    animation-timing-function: ease-in;
+}
+
+#onl {
+    position: absolute;
+    left: 95%;
+    top: 75%;
+    visibility: visible;
+    font-weight: bold;
+    animation-name: onl;
+    animation-duration: 2s;
+    
+    animation-timing-function: ease-in;
+}
+
+#pre {
+    position: absolute;
+    left: 60%;
+    top: 100%;
+    visibility: visible;
+    font-weight: bold;
+    animation-name: pre;
+    animation-duration: 2s;
+    
+    animation-timing-function: ease-in;
+}
+
+#auto {
+    position: absolute;
+    left: -10%;
+    top: 100%;
+    visibility: visible;
+    font-weight: bold;
+    animation-name: auto;
+    animation-duration: 2s;
+    
+    animation-timing-function: ease-in;
+}
+
+#soc {
+    position: absolute;
+    left: -40%;
+    top: 80%;
+    visibility: visible;
+    font-weight: bold;
+    animation-name: soc;
+    animation-duration: 2s;
+    
+    animation-timing-function: ease-in;
+}
+
+#bot {
+    position: absolute;
+    left: -30%;
+    top: 45%;
+    visibility: visible;
+    font-weight: bold;
+    animation-name: bot;
+    animation-duration: 2s;
+    
+    animation-timing-function: ease-in;
+}
+
+#sen {
+    position: absolute;
+    left: -40%;
+    top: 5%;
+    visibility: visible;
+    font-weight: bold;
+    animation-name: sen;
+    animation-duration: 2s;
+    
+    animation-timing-function: ease-in;
+}
+
+#mail {
+    position: absolute;
+    left: 5%;
+    top: -25%;
+    visibility: visible;
+    font-weight: bold;
+    animation-name: mail;
+    animation-duration: 2s;
+    
+    animation-timing-function: ease-in;
+}
+
+@keyframes lang {
+    0%{
+        visibility: hidden;
+    }
+    10% {
+        visibility: hidden;
+    }
+}
+@keyframes assist {
+    0%{
+        visibility: hidden;
+    }
+    20% {
+        visibility: hidden;
+    }
+}
+@keyframes docu {
+    0%{
+        
+        visibility: hidden;
+    }
+    30% {
+        visibility: hidden;
+    }
+}
+@keyframes onl {
+    0%{
+        visibility: hidden;
+    }
+    40% {
+        visibility: hidden;
+    }
+}
+@keyframes pre {
+    0%{
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+}
+@keyframes auto {
+    0%{
+        
+        visibility: hidden;
+    }
+    60% {
+        visibility: hidden;
+    }
+}
+@keyframes soc {
+    0%{
+        visibility: hidden;
+    }
+    70% {
+        visibility: hidden;
+    }
+}
+@keyframes bot {
+    0%{
+        visibility: hidden;
+    }
+    80% {
+        visibility: hidden;
+    }
+}
+@keyframes sen {
+    0%{
+        
+        visibility: hidden;
+    }
+    90% {
+        visibility: hidden;
+    }
+}
+@keyframes mail {
+    0%{
+        
+        visibility: hidden;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
